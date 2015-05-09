@@ -1,29 +1,36 @@
-var DEBUG_MODE = true;
-
-
-Logger = {};
-Logger.LOG_LEVEL = {
-    INFO: 'info'
-    , WARN : 'warn'
-    , ERROR: 'error'
-};
-
-
-function console_log(message, type) {
-    type = type || Logger.LOG_LEVEL.INFO;
-    if (DEBUG_MODE && window.console && window.console.log) {
-        switch (type){
-            case Logger.LOG_LEVEL.INFO:
-                console.log(message);
-                break;
-            case Logger.LOG_LEVEL.WARN:
-                console.warn(message);
-                break;
-            case Logger.LOG_LEVEL.ERROR:
-                console.error(message);
-                break;
-        }
-    }
+function Logger(debug_mode) {
+    this.DEBUG_MODE = debug_mode !== false;
+    this.ignore_next = false;
 }
 
-console_log('Debug mode is activated', 'warn');
+Logger.prototype.ignore_one_message = function () {
+    this.ignore_next = true;
+};
+
+Logger.prototype.log = function (message) {
+    if (this.ignore_next || !this.DEBUG_MODE) {
+        this.ignore_next = false;
+        return;
+    }
+    console.log(message);
+
+};
+Logger.prototype.warn = function (message) {
+    if (this.ignore_next || !this.DEBUG_MODE) {
+        this.ignore_next = false;
+        return;
+    }
+    console.warn(message);
+
+};
+Logger.prototype.error = function (message) {
+    if (this.ignore_next || !this.DEBUG_MODE) {
+        this.ignore_next = false;
+        return;
+    }
+    console.error(message);
+
+};
+
+debug = new Logger();
+debug.warn('Debug mode is activated', 'warn');
