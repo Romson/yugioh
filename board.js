@@ -26,6 +26,14 @@ function Board(){
         }
     }
 
+    this.is_player_A = function(){
+        return this.player_A !== undefined && this.player_A !== null
+    }
+
+    this.is_player_B = function(){
+        return this.player_B !== undefined && this.player_B !== null
+    }
+
     //When a game is initiated, players cannot be changed and the cards can be manipulated on the board
     this.init = function(){
         if (this.player_A && this.player_B){
