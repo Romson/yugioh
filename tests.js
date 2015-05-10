@@ -66,6 +66,11 @@ QUnit.test( "board init", function( assert ) {
     assert.notOk(b.init(),'Failed to start the game');
     assert.notOk(b.is_initiated, 'Board status remains consistent');
 
+    //Try to register and invalid thing as a player
+    var fake_p2 = {};
+    b.register_player(fake_p2, false);
+    assert.notOk(b.is_player_B_ready());
+
     //Register the second player
     var p2 = new Player('Tom');
     p2.init_deck(cards_json);

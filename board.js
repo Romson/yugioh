@@ -14,7 +14,7 @@ Board.prototype.register_player = function(player, is_player_a){
         return false
     }
 
-    if (!player) {
+    if (!( player instanceof Player)) {
         debug.log('Invalid object used as player');
         return false
     }

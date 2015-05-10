@@ -24,7 +24,6 @@ Player.prototype.init_deck = function (cards) {
     }
     for (var i = 0; i < cards.length; i++) {
         var card = cards[i];
-        debug.log(i);
         switch (card.type) {
             case Card.ECardType.MONSTER:
                 this.deck.push(new MonsterCard(card));
@@ -39,7 +38,6 @@ Player.prototype.init_deck = function (cards) {
                 debug.error("Could not create card from JSON object: " + card);
         }
     }
-    debug.warn(this.deck)
     this.deck_initiated = true;
     return this;
 
