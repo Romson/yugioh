@@ -60,7 +60,7 @@ QUnit.test( "board init", function( assert ) {
     debug.log("Trying to initialize a deck with " + cards_json.length + " cards");
     p1.init_deck(cards_json);
     assert.ok(b.register_player(p1,true), "Player A registered successfully");
-    assert.ok(b.is_player_A(), "Player A is confirmed from the board");
+    assert.ok(b.is_player_A_ready(), "Player A is confirmed from the board");
 
     //Try to init the game before adding the second player
     assert.notOk(b.init(),'Failed to start the game');
@@ -70,7 +70,7 @@ QUnit.test( "board init", function( assert ) {
     var p2 = new Player('Tom');
     p2.init_deck(cards_json);
     assert.ok(b.register_player(p2),  "Player B registered successfully");
-    assert.ok(b.is_player_B(), "Player B is confirmed from the board");
+    assert.ok(b.is_player_B_ready(), "Player B is confirmed from the board");
 
     //Verify the amount of cards
     var player_A_cards_qtd = p1.deck_size();

@@ -1,5 +1,6 @@
 function Board(){
     this.field_type = 'normal';
+
     this.player_A = null;
     this.player_B = null;
 
@@ -28,12 +29,12 @@ Board.prototype.register_player = function(player, is_player_a){
 };
 
 //Verify is player A is already set on board
-Board.prototype.is_player_A = function(){
+Board.prototype.is_player_A_ready = function(){
     return this.player_A !== undefined && this.player_A !== null
 };
 
 //Verify is player B is already set on board
-Board.prototype.is_player_B = function(){
+Board.prototype.is_player_B_ready = function(){
     return this.player_B !== undefined && this.player_B !== null
 };
 
