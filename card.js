@@ -1,3 +1,7 @@
+//=============================================================================
+//== General Card
+//=============================================================================
+
 function Card(params) {
     this.title = params && params['title'] || '';
     this.description = params && params['description'] || '';
@@ -15,16 +19,33 @@ Card.ECardType = {
     , SPELL: 'spell'
 };
 
+//=============================================================================
+//== Monster Card
+//=============================================================================
+
 function MonsterCard(params) {
     Card.call(this, params);
-    this.attribute = params && params['attribute'] || '';
+    this.attribute = params && params['attribute'] || ''; // dark || earth || fire || light || water || wind
     this.effect = params && params['effect'] || ''; // none | flip |
     this.level = params && params['level'] || '';
     this.atk = params && params['atk'] || '';
     this.def = params && params['def'] || '';
 }
+
+MonsterCard.EMonsterAttribure = {
+    DARK : 'dark'
+    , EARTH : 'earth'
+    , FIRE : 'fire'
+    , LIGHT : 'light'
+    , WATER : 'water'
+    , WIND : 'wind'
+}
+
 MonsterCard.prototype = Object.create(Card.prototype);
 
+//=============================================================================
+//== Spell Card
+//=============================================================================
 
 function SpellCard(params) {
     Card.call(this, params);
@@ -39,6 +60,10 @@ SpellCard.ECardProperty = {
     , FIELD: 'field'
     , EQUIP: 'equip'
 };
+
+//=============================================================================
+//== Trap Card
+//=============================================================================
 
 function TrapCard(params) {
     Card.call(this, params);

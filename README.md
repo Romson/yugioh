@@ -30,3 +30,6 @@ All the domain knowledge must be taken from official sources to guide the engine
 ## Contributions
 
 All external contributions are welcome here :)
+
+
+![picture](http://i59.tinypic.com/2u6i3qt.png)
