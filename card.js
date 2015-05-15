@@ -3,12 +3,13 @@
 //=============================================================================
 
 function Card(params) {
-    this.title = params && params['title'] || '';
+    this.card_id = params && params['card_id'] || ''; //TODO Make a global unique number generator
+    this.card_name = params && params['card_name'] || '';
     this.description = params && params['description'] || '';
     this.card_number = params && params['card_number'] || '';
     this.rarity = params && params['rarity'] || '';
     this.picture = params && params['picture'] || '';
-    this.type = params && params['type'] || '';
+    this.card_type = params && params['card_type'] || ''; //To be not confounded with a monster's type
     this.subtype = params && params['sub_type'] || '';
 }
 
@@ -23,22 +24,50 @@ Card.ECardType = {
 //== Monster Card
 //=============================================================================
 
+
 function MonsterCard(params) {
     Card.call(this, params);
     this.attribute = params && params['attribute'] || ''; // dark || earth || fire || light || water || wind
     this.effect = params && params['effect'] || ''; // none | flip |
     this.level = params && params['level'] || '';
-    this.atk = params && params['atk'] || '';
-    this.def = params && params['def'] || '';
+    this.atk = params && params['atk'] || null;
+    this.def = params && params['def'] || null;
+    this.type = params && params['type'] || ''; // aqua | beast | beast-warrior | dinosaur | dragon | fairy | fiend | fish | insect | machine | plant | psychic | pyro | reptile | rock | sea serpent | spellcaster | warrior | winged beast | zombie
 }
 
+//Enumeration
+MonsterCard.EMonsterType = {
+    AQUA: 'aqua'
+    , BEAST: 'beast'
+    , BEAST_WARRIOR: 'beast-warrior'
+    , DINOSAUR: 'dinosaur'
+    , DRAGON: 'dragon'
+    , FAIRY: 'fairy'
+    , FIEND: 'fiend'
+    , FISH: 'fish'
+    , INSECT: 'insect'
+    , MACHINE: 'machine'
+    , PLANT: 'plant'
+    , PSYCHIC: 'psychic'
+    , PYRO: 'pyro'
+    , REPTILE: 'reptile'
+    , ROCK: 'rock'
+    , SEA: 'sea'
+    , SERPENT: 'serpent'
+    , SPELLCASTER: 'spellcaster'
+    , WARRIOR: 'warrior'
+    , WINGED_BEAST: 'winged_beast'
+    , ZOMBIE: 'zombie'
+}
+;
+
 MonsterCard.EMonsterAttribure = {
-    DARK : 'dark'
-    , EARTH : 'earth'
-    , FIRE : 'fire'
-    , LIGHT : 'light'
-    , WATER : 'water'
-    , WIND : 'wind'
+    DARK: 'dark'
+    , EARTH: 'earth'
+    , FIRE: 'fire'
+    , LIGHT: 'light'
+    , WATER: 'water'
+    , WIND: 'wind'
 }
 
 MonsterCard.prototype = Object.create(Card.prototype);

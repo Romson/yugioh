@@ -10,17 +10,17 @@ QUnit.begin(initiate_cards);
 QUnit.module('Card object tests');
 QUnit.test("cards_creation", function (assert) {
     var monster_card = new MonsterCard({
-        "type": "monster",
+        "card_type": "monster",
         "subtype": "synchro",
-        "title": "Scrap Archfiend",
+        "card_name": "Scrap Archfiend",
         "description": "1 Tuner + 1 or more non-Tuner Monsters.",
         "card_number": "DREV-EN000",
         "rarity": "super-rare",
         "picture": ""
     });
 
-    assert.equal(monster_card.title, "Scrap Archfiend", 'The title of the card is ok');
-    assert.equal(monster_card.type, Card.ECardType.MONSTER, 'Type of monster is ok')
+    assert.equal(monster_card.card_name, "Scrap Archfiend", 'The card_name of the card is ok');
+    assert.equal(monster_card.card_type, Card.ECardType.MONSTER, 'card_type of monster is ok')
 });
 
 //=============================================================================
@@ -59,10 +59,10 @@ QUnit.test("board init", function (assert) {
 
     //Verify the amount of cards
     var player_A_cards_qtd = p1.deck_size();
-    assert.ok(player_A_cards_qtd >= 40 && player_A_cards_qtd <= 60, 'Player A has the correct amount of cards to start the duel');
+    assert.ok(player_A_cards_qtd >= 40 && player_A_cards_qtd <= 60, 'Player A has ' + player_A_cards_qtd + ' cards.');
 
     var player_B_cards_qtd = b.player_B.deck_size();
-    assert.ok(player_B_cards_qtd >= 40 && player_B_cards_qtd <= 60, 'Player B has the correct amount of cards to start the duel');
+    assert.ok(player_B_cards_qtd >= 40 && player_B_cards_qtd <= 60, 'Player B has ' + player_B_cards_qtd + ' cards.');
 
     //Try to initialize the game. After initialized, each player draw 5 cards
     assert.ok(b.init(), 'Game successfully b_is_initiated');
@@ -156,7 +156,7 @@ QUnit.skip('field functionalities', function (assert) {
 function initiate_cards() {
     cards_json = [
         {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -165,7 +165,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "spell",
+            "card_type": "spell",
             "subtype": "quick-play",
             "title": "Blind Spot Strike ",
             "description": "Select 1 face-up Defense Position monster your opponent controls and 1 face-up Attack Position monster you control. The monster you control gains ATK equal to the opponent's monster's DEF, until the End Phase.",
@@ -174,16 +174,16 @@ function initiate_cards() {
             "picture": ""
         } //Spell
         , {
-            "type": "trap",
+            "card_type": "trap",
             "subtype": "continuous",
             "title": "Desperate Tag ",
-            "description": "If a face-up Attack Position monster you control is destroyed by battle, during damage calculation, you can reduce the Battle Damage from this battle to 0 and Special Summon 1 Level 4 or lower Warrior-Type monster from your hand at the end of the Damage Step.",
+            "description": "If a face-up Attack Position monster you control is destroyed by battle, during damage calculation, you can reduce the Battle Damage from this battle to 0 and Special Summon 1 Level 4 or lower Warrior-card_type monster from your hand at the end of the Damage Step.",
             "card_number": "DREV-EN063",
             "rarity": "common",
             "picture": ""
         } //Trap
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -192,7 +192,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -201,7 +201,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -210,7 +210,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -219,7 +219,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -228,7 +228,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -237,7 +237,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -246,7 +246,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -255,7 +255,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -264,7 +264,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -273,7 +273,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -282,7 +282,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -291,7 +291,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -300,7 +300,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -309,7 +309,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -318,7 +318,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -327,7 +327,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "spell",
+            "card_type": "spell",
             "subtype": "quick-play",
             "title": "Blind Spot Strike ",
             "description": "Select 1 face-up Defense Position monster your opponent controls and 1 face-up Attack Position monster you control. The monster you control gains ATK equal to the opponent's monster's DEF, until the End Phase.",
@@ -336,16 +336,16 @@ function initiate_cards() {
             "picture": ""
         } //Spell
         , {
-            "type": "trap",
+            "card_type": "trap",
             "subtype": "continuous",
             "title": "Desperate Tag ",
-            "description": "If a face-up Attack Position monster you control is destroyed by battle, during damage calculation, you can reduce the Battle Damage from this battle to 0 and Special Summon 1 Level 4 or lower Warrior-Type monster from your hand at the end of the Damage Step.",
+            "description": "If a face-up Attack Position monster you control is destroyed by battle, during damage calculation, you can reduce the Battle Damage from this battle to 0 and Special Summon 1 Level 4 or lower Warrior-card_type monster from your hand at the end of the Damage Step.",
             "card_number": "DREV-EN063",
             "rarity": "common",
             "picture": ""
         } //Trap
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -354,7 +354,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -363,7 +363,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -372,7 +372,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -381,7 +381,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -390,7 +390,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -399,7 +399,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -408,7 +408,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -417,7 +417,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -426,7 +426,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -435,7 +435,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -444,7 +444,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -453,7 +453,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -462,7 +462,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -471,7 +471,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -480,7 +480,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -489,7 +489,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -498,7 +498,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",
@@ -507,7 +507,7 @@ function initiate_cards() {
             "picture": ""
         } //Monster
         , {
-            "type": "monster",
+            "card_type": "monster",
             "subtype": "synchro",
             "title": "Scrap Archfiend",
             "description": "1 Tuner + 1 or more non-Tuner Monsters.",

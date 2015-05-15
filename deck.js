@@ -14,7 +14,7 @@ function _constructor(cards) {
     }
     for (var i = 0; i < cards.length; i++) {
         var card = cards[i];
-        switch (card.type) {
+        switch (card.card_type) {
             case Card.ECardType.MONSTER:
                 this.cards.push(new MonsterCard(card));
                 break;

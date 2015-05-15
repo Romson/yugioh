@@ -1,42 +1,402 @@
 [
-   {"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"spell","subtype":"quick-play","title":"Blind Spot Strike ","description":"Select 1 face-up Defense Position monster your opponent controls and 1 face-up Attack Position monster you control. The monster you control gains ATK equal to the opponent's monster's DEF, until the End Phase.","card_number":"DREV-EN045","rarity":"common", "picture":""} //Spell
-  ,{"type":"trap","subtype":"continuous","title":"Desperate Tag ","description":"If a face-up Attack Position monster you control is destroyed by battle, during damage calculation, you can reduce the Battle Damage from this battle to 0 and Special Summon 1 Level 4 or lower Warrior-Type monster from your hand at the end of the Damage Step.","card_number":"DREV-EN063","rarity":"common", "picture":""} //Trap
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"spell","subtype":"quick-play","title":"Blind Spot Strike ","description":"Select 1 face-up Defense Position monster your opponent controls and 1 face-up Attack Position monster you control. The monster you control gains ATK equal to the opponent's monster's DEF, until the End Phase.","card_number":"DREV-EN045","rarity":"common", "picture":""} //Spell
-  ,{"type":"trap","subtype":"continuous","title":"Desperate Tag ","description":"If a face-up Attack Position monster you control is destroyed by battle, during damage calculation, you can reduce the Battle Damage from this battle to 0 and Special Summon 1 Level 4 or lower Warrior-Type monster from your hand at the end of the Damage Step.","card_number":"DREV-EN063","rarity":"common", "picture":""} //Trap
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
-  ,{"type":"monster","subtype":"synchro","title":"Scrap Archfiend","description":"1 Tuner + 1 or more non-Tuner Monsters.","card_number":"DREV-EN000","rarity":"super-rare", "picture":""} //Monster
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "spell",
+    "subtype": "quick-play",
+    "card_name": "Blind Spot Strike ",
+    "description": "Select 1 face-up Defense Position monster your opponent controls and 1 face-up Attack Position monster you control. The monster you control gains ATK equal to the opponent's monster's DEF, until the End Phase.",
+    "card_number": "DREV-EN045",
+    "rarity": "common",
+    "picture": ""
+  }
+  //Spell,
+  {
+    "card_type": "trap",
+    "subtype": "continuous",
+    "card_name": "Desperate Tag ",
+    "description": "If a face-up Attack Position monster you control is destroyed by battle, during damage calculation, you can reduce the Battle Damage from this battle to 0 and Special Summon 1 Level 4 or lower Warrior-card_type monster from your hand at the end of the Damage Step.",
+    "card_number": "DREV-EN063",
+    "rarity": "common",
+    "picture": ""
+  }
+  //Trap,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "spell",
+    "subtype": "quick-play",
+    "card_name": "Blind Spot Strike ",
+    "description": "Select 1 face-up Defense Position monster your opponent controls and 1 face-up Attack Position monster you control. The monster you control gains ATK equal to the opponent's monster's DEF, until the End Phase.",
+    "card_number": "DREV-EN045",
+    "rarity": "common",
+    "picture": ""
+  }
+  //Spell,
+  {
+    "card_type": "trap",
+    "subtype": "continuous",
+    "card_name": "Desperate Tag ",
+    "description": "If a face-up Attack Position monster you control is destroyed by battle, during damage calculation, you can reduce the Battle Damage from this battle to 0 and Special Summon 1 Level 4 or lower Warrior-card_type monster from your hand at the end of the Damage Step.",
+    "card_number": "DREV-EN063",
+    "rarity": "common",
+    "picture": ""
+  }
+  //Trap,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster,
+  {
+    "card_type": "monster",
+    "subtype": "synchro",
+    "card_name": "Scrap Archfiend",
+    "description": "1 Tuner + 1 or more non-Tuner Monsters.",
+    "card_number": "DREV-EN000",
+    "rarity": "super-rare",
+    "picture": ""
+  }
+  //Monster
 ]
