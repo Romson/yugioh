@@ -10,7 +10,6 @@ function Card(params) {
     this.rarity = params && params['rarity'] || '';
     this.picture = params && params['picture'] || '';
     this.card_type = params && params['card_type'] || ''; //To be not confounded with a monster's type
-    this.subtype = params && params['sub_type'] || '';
 }
 
 //Enumeration
